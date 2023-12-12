@@ -1,0 +1,1220 @@
+@media screen and (max-width:1200px){
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .first-screen {
+        margin: 25px 0 130px 0;
+    }
+    header{
+        margin-bottom: 65px;
+    }
+    .part-left, .part-right{
+        width: 220px;
+    }
+    .icon-logo-max{
+        width: 38px;
+        height: 38px;
+    }
+    .title-logo{
+        font-size: 1.8rem;
+        margin-left: 7px;
+    }
+    .nav-link{
+        font-size: 1.2rem;
+    }
+    .link-margin{
+        margin-right: 20px;
+    }
+    .icon-human{
+        margin-right: 10px;
+    }
+    .modal-content {
+        max-width: 360px;
+    }
+    .container-title {
+        padding: 5px 10px;
+    }
+    .modal-title {
+        font-size: 1.8rem;
+    }
+    .login-form {
+        padding: 20px;
+    }
+    .login-submit {
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+    .offer{
+        height: 470px;
+    }
+    .offer-background{
+        height: 415px;
+        padding: 45px 0 55px 270px;
+    }
+    h1{
+        font-size: 3.26rem;
+        line-height: 4.5rem;
+    }
+    .line{
+        width: 85px;
+        margin: 6px 0 14px 0;
+    }
+    .offer {
+        height: 430px;
+    }
+    .offer-text{
+        font-size: 1rem;
+        letter-spacing: 0.02rem;
+        margin: 0 160px 0 0px;
+    }
+    .offer-link{
+        font-size: 1rem;
+    }
+    .offer-image{
+        width: 260px; 
+        height: 425px;
+        object-fit: contain;
+        border-radius: 20px;
+        top: 45px;
+    }    
+    .offer-btn{
+        margin: 30px 0 50px 80px;
+    }
+    .link-add{
+        width: 190px;
+        height: 52px;
+        margin: 0 60px 0 0;
+    }
+    .link-buy{
+        width: 115px;
+        height: 52px;
+    }
+    .icon-logo-min, .icon-cart{
+        width: 26px;
+        height: 26px;
+    }
+    .icon-logo-min{
+        margin: 12px 11px 12px 23px;
+    }
+    .icon-cart{
+        margin: 13px 11px 13px 23px;
+    }
+    .icon-logo-text {
+        font-size: 1.2rem;
+    }
+    .arrow-next, .arrow-prev{
+        width: 50px;
+        height: 50px;
+        top: calc(415px - 25px);
+        background-size: 28px;
+    }
+    .arrow-next{
+        right: 35px;        
+    }
+    .arrow-prev{
+        right: 100px;
+    }
+        /* 1200px - 2 screen */
+    .box-title-left, .box-title-right{
+        font-size: 1.55rem;
+    }
+    .box-text-right, .box-text-left{
+        font-size: 0.8rem;
+    }
+    .box-title-link-right, .box-title-link-left{
+        font-size: 0.8rem;
+    }
+    .third-screen-title {
+        font-size: 2.1rem;
+    }
+    .card{
+       height: 390px;
+       padding: 180px 0 0 25px;
+    }
+    .card-margin{
+        margin-right: 20px;
+    }
+    .card-image{
+        width: 175px;
+        height: 185px;
+        left: 25px;
+    }
+    .card-price{
+        font-size: 1.3rem;
+    }  
+    .card-btn-cart{
+        width: 130px;
+    }
+    .card-btn-container {
+        display: block;
+    }
+    /* 1200 4screen */    
+    .title-fourth-screen {
+        margin-bottom: 70px;
+    }
+    .image-fourth-screen {
+        width: 350px;
+    }
+    .fourth-screen-right-bg{
+        height: 350px;
+    }
+    /* 1200 5screen */
+    .wrrap-card{
+        margin: 0 0 0 20px;
+    }
+    .image-card{
+        width: 130px;
+    }    
+    .price-card-clock{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .footer-title{
+        font-size: 2.4rem;
+        padding: 22px 0;
+        bottom: -200px;
+    }
+    /* 1200 6screen */
+    .text-sixth-screen-right {
+        font-size: 1.05rem;
+        line-height: 1.8rem;
+        margin: 45px 0 25px 0;
+    }
+    .txt-sixth-screen-right {
+        margin-top: 0;
+    }
+    .arrow-next-sixth-screen, .arrow-prev-sixth-screen {
+        width: 50px;
+        height: 50px;
+    }
+    .arrow-prev-sixth-screen{
+        right: 70px;
+    }
+    /* 1200 7screen */
+    .bg-seventh-screen{
+        top: -31px;
+    }
+    .bg-text-seventh-screen{
+        font-size: 1.2rem;
+        padding: 14px 0;
+    }
+     /* footer */
+    .text-address{
+        font-size: 1.20rem;
+    }
+    .text-store, .text-monday{
+        font-size: 0.8rem;
+    }
+    .text-get, .text-useful{
+        font-size: 1.3em;
+    }
+    .text-customer, .text-service, .text-phone{
+        font-size: 1rem;
+    }
+    .text-number {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:992px){
+    .container{
+        width: 720px;
+        margin: 0 auto;
+    }
+    .first-screen {
+        margin: 25px 0 80px 0;
+    }
+    header{
+        margin-bottom: 55px;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .part-center{
+        margin: 0;
+    }
+    .part-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .search-input {
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+    .offer {
+        height: 355px;
+    }
+    .offer-background{
+        height: 330px;
+        padding: 35px 0 40px 200px;
+    }
+    h1{
+        font-size: 2.5rem;
+        line-height: 3.3rem
+    }
+    .line{
+        width: 65px;
+        margin: 5px 0 10px 0;
+    }
+    .offer-text{        
+        font-size: 0.8rem;
+        margin: 0 95px 0 0px;
+    }
+    .offer-link {
+        font-size: 0.8rem;
+    }
+    .offer-image{
+        width: 195px;
+        height: 320px;
+        border-radius: 20px;
+        object-fit: contain;
+        top: 35px;
+    }
+    .offer-btn{
+        margin: 25px 0 0px 80px;
+    }
+    .link-add{
+        width: 140px;
+        height: 40px;
+        margin: 0 40px 0 0;
+    }
+    .link-buy{
+        width: 115px;
+        height: 40px;
+    }
+    .icon-logo-min,
+    .icon-cart{
+        width: 24px;
+        height: 24px;
+    }
+    .icon-logo-min {
+        margin: 0 9px 0 15px;
+    }
+    .icon-cart{
+        margin: 0 11px 0 23px;
+    }
+    .icon-logo-text {
+        font-size: 0.9rem;
+    }
+    .arrow-next,
+    .arrow-prev{
+        width: 40px;
+        height: 40px;
+        top: calc(330px - 20px);
+        background-size: 26px;
+    }
+    .arrow-next{
+        right: 35px;        
+    }
+    .arrow-prev{
+        right: 100px;
+    }
+    /* 992 2screen */
+    .second-screen {
+        margin: 0 auto 60px auto;
+    }
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-background, .right-background{
+        height: 255px;
+        position: relative;
+    }
+    .left-background {
+        margin-right: 0;
+        padding: 25px 0 0 40px;
+        margin-bottom: 20px;
+    }
+    .right-background{
+        padding: 25px 0 0 40px;
+    }
+    .box-title-left, .box-title-right{
+        font-size: 1.5rem;
+    }
+    .box-title-right{
+        justify-content: start;
+    }
+    .box-text-right, .box-text-left {
+        font-size: 1rem;
+    }
+    .box-title-link-right, .box-title-link-left {
+        font-size: 1rem;
+    }
+    .box-text-left{
+        padding: 5px 45px 5px 0;
+    }
+    .box-text-right{
+        padding: 5px 90px 5px 0;
+    }
+    .box-title-item{
+        margin-left: 5px;
+    }
+    .box-title-link-left {
+        text-align: start;
+    }
+    .box-picture-right, .box-picture-left{
+        width: 210px;
+        height: 105px;
+        bottom: 0;
+        position: absolute;
+        left: calc(100% - 210px);
+    }
+    /* 992 3 screen */
+    .third-screen{
+        margin-bottom: 0;
+    }
+    .third-screen-title{
+        margin-bottom: 100px;
+        text-align: center;
+    }       
+    .card {
+        padding: 180px 0 0 40px;
+        margin: 0 auto 100px auto;
+    }
+    .card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .card-image {
+        left: 48px;
+    }
+    .load-more-btn-container{
+        margin-bottom: 40px;
+        margin-top: -40px;
+    }
+    /* 992 4 screen */
+    .fourth-screen-right-bg {
+        height: 300px;
+    }
+    .image-fourth-screen {
+        width: 300px;
+    }
+    .title-fourth-screen {
+        margin-bottom: 50px;
+    }
+    .txt-fourth-screen {
+        font-size: 1.45rem;
+        margin: 8px 10px 5px 10px;
+    }
+    .btn-fourth-screen{
+        padding: 10px 30px;
+        margin: 20px 0 0 50px;
+    }
+    /* 992 5screen */
+    .title-card {
+        font-size: 2.05rem;
+        margin: 0 auto 40px auto;
+    }
+    .margin-left {
+        margin-right: 30px;
+    }
+    .card-width{
+        width: calc(50% - 30px);
+    }
+    .marg-top{
+        margin-top: 30px;
+    }
+    .image-card {
+        width: 100px;
+    }
+    .image-gall-4{
+        display: none;
+    }
+    .wrrap-card {
+        margin: 0 0 0 15px;
+    }
+    .text-card{
+        font-size: 1.4rem;
+    }
+    .price-card-clock {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    /* 992 6 screen */
+    .sixth-screen{
+        margin-bottom: 150px;
+    }
+    .sixth-screen-left {
+        margin-right: 20px;
+    }
+    .title-sixth-screen-right {
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+    .text-sixth-screen-right {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        margin: 10px 0 15px 0;
+    }    
+    .txt-sixth-screen-right {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-top: 0;
+    }
+    .sub-text-sixth-screen-right {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .arrow-next-sixth-screen, .arrow-prev-sixth-screen {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        background-size: 20px;
+        top: 105%;        
+    }
+    .arrow-prev-sixth-screen {
+        right: 50px;
+    }
+    /* 992 7 screen */
+    .bg-text-seventh-screen {
+        font-size: 1rem;
+        padding: 9px 0;
+    }
+    .bg-seventh-screen {
+        top: -25px;
+    }
+    .footer-title {
+        font-size: 2.1rem;
+        padding: 17px 0;
+        bottom: -190px;
+    }
+    /* 992 footer */
+    .card-marg {
+        margin-right: 20px;
+    }
+    .text-warranty {
+        font-size: 0.9rem;
+    }
+    .text-customer, .text-service, .text-phone {
+        font-size: 0.9rem;
+        width: 45%;
+    }
+}    
+@media screen and (max-width:768px){
+    .container{
+        width: 540px;
+        margin: 0 auto;
+    }
+    /* 768 1 screen */
+    .first-screen {
+        margin: 25px 0 0 0;
+    }
+    header {
+        margin: 25px 0 50px 0;
+    }
+    .icon-logo-max {
+        width: 35px;
+        height: 35px;
+    }
+    .title-logo {
+        font-size: 1.8rem;
+    }
+    .part-center{
+        display: none;
+    }
+                        /* Slider-start */
+    .nav-min {
+        background: #fff;
+        margin: 25px 0;
+        display: block;
+    }
+    .nav-hamburg-menu {
+        color: white;
+        font-size: 1.2em;
+        font-variant: small-caps;
+        cursor: pointer;
+        display: block;
+        float: right;
+    }
+    .line-menu{
+        width: 40px;
+        height: 3px;
+        border-radius: 10px;
+        background-color: #3AAFA9;
+    }
+    .line-menu-marg{
+        margin-bottom: 5px;
+    }
+    ul.slide {
+        clear:both;
+        width:100%;
+        height:0px;
+        overflow: hidden;
+        text-align: center;
+        transition: height .4s ease;
+    }
+    ul.slide li {
+        padding: 10px 60px 10px 0;
+        text-align: end;
+    } 
+    ul.slide a{
+        color: #333;
+    }
+    #touch{
+        position: absolute; 
+        opacity: 0; 
+        height: 0px;
+    }  
+    #touch:checked + ul.slide {
+        height: 180px;        
+    }
+                                  /* Slider-end */
+    
+    .modal-content {
+        max-width: 370px;
+    }
+    .modal-title {
+        font-size: 2rem;
+    }
+    .login-form {
+        padding: 25px 30px;
+    }
+    .login-input {
+        padding: 10px 10px;
+    } 
+    ::-webkit-input-placeholder{
+        font-size: 0.9rem
+    }
+    .login-submit {
+        font-size: 1.2rem;
+    }
+    .modal-link {
+        font-size: 0.8rem;
+    }
+    .title-table {
+        font-size: 1.2rem;
+        margin: 5px 0;
+    }
+    th {
+        font-size: 1rem;
+    }
+    .name-cart {
+        font-size: 1rem;
+    }
+    .price-cart, .total-cart {
+        font-size: 0.9rem;
+    }
+    .qty-cart {
+        padding: 0px 8px;
+    }
+    .offer {
+        height: 415px;
+    }
+    .offer-background{
+        height: 300px;
+        padding: 30px 0 40px 190px;    
+    }
+    h1{
+        font-size: 2rem;
+        line-height: 2.7rem;
+    }
+    .line{
+        width: 55px;
+        margin: 0px 0 5px 0;
+    }
+    .offer-text{        
+        font-size: 0.8rem;
+        margin: 0 95px 0 0px;
+    }
+    .offer-link {
+        font-size: 0.8rem;
+    }
+    .offer-image{
+        top: 30px;
+    }
+    .offer-btn{
+        margin: 15px 0 0 0;    
+    }
+    .link-add {
+        width: 140px;
+        height: 35px;
+        margin: 0 35px 0 0;
+    }
+    .link-buy {
+        width: 105px;
+        height: 35px;
+    }
+    .icon-logo-min, .icon-cart {
+        width: 22px;
+        height: 22px;
+    }
+    .arrow-next,
+    .arrow-prev{
+        width: 38px;
+        height: 38px;
+        top: calc(300px - 19px);
+        background-size: 23px;
+    }
+    .arrow-next{
+        right: 35px;        
+    }
+    .arrow-prev{
+        right: 90px;
+    }    
+    .card {
+        width: 271px;
+        padding: 170px 0 0 40px;
+        margin: 0 auto 100px auto;
+    }
+    /* 768 2 screen */
+    .box-text-left {
+        padding: 5px 45px 5px 0;
+        text-align: start;
+    }
+    /* 768 4 screen */
+    .image-fourth-screen, .fourth-screen-right-bg{
+        height: 280px;
+    }
+    .title-fourth-screen{
+        font-size: 1.6rem;
+    }
+    .btn-fourth-screen {
+        padding: 10px 30px;
+        margin: 20px 0 0 20px;
+    }
+    .txt-fourth-screen {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    /* 768 5 screen */
+    .text-card {
+        font-size: 1.1rem;
+    }
+    /* 768 6 screen */
+    .sixth-screen {
+        margin-bottom: 130px;
+    }
+    .text-sixth-screen-right {
+        font-size: 0.75rem;
+        line-height: 1.1rem;
+    }
+    .bg-sixth-screen-left {
+        width: 83%;
+        height: 83%;
+    }
+    /* 768 7 screen */
+    .seventh-screen {
+        margin-bottom: 125px;
+    }
+    /* 768 footer */
+    .footer-title {
+        font-size: 2rem;
+        padding: 12px 0;
+        bottom: -165px;
+    }
+    .footer-card-container{
+        flex-wrap: wrap;
+    }
+    .card-marg {
+        margin-right: 0;
+    }
+    .text-store, .text-monday{
+        font-size: 0.7rem;
+    }
+    .text-office{
+        font-size: 1.1rem;
+    }
+    .text-address{
+        font-size: 1.1rem;
+    }
+    .text-get, .text-useful{
+        font-size: 1.1em;
+    }
+    .text-useful {
+        margin-top: 20px;
+    }
+    .text-warranty {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .text-number {
+        font-size: 0.8rem;
+    }
+    .home-link {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width:576px){
+    .container{
+        width: 100%;
+        padding: 0 25px;
+        margin: 0 auto;
+    }
+    .nav-min{
+        margin: 0 0;
+    }
+    .line-menu{
+        width: 35px;
+    }
+    .search-box:hover > .search-input {
+        width: 150px;
+    }
+    .search-input {
+        margin-top: 0;
+    }
+    .modal-container {
+        margin: 0 10px;
+    }
+    .icon-log{
+        display: none;
+    }
+    .modal-content{
+        max-width: 300px;
+        height: 400px;
+    }
+    .modal-close {
+        padding: 0 10px;
+    }
+    .label-login{
+        padding: 0 0;
+        font-size: 2rem;
+    }
+    .signup-btn, .login-btn {
+        margin: 10px auto;
+        font-size: 0.8em;
+    }
+    .login{
+        transform: translateY(-60px);
+    }
+    #chk:checked ~ .login{
+        transform: translateY(-340px);
+    }
+    th {
+        font-size: 0.9rem;
+    }
+    .image-cart {
+        width: 50px;
+        border-radius: 9px;
+    }
+    .cart-name{
+        padding: 10px 10px 10px 0;
+    }
+    .cart-price,  .cart-qty, .cart-total{
+        padding: 10px;
+    }
+    .cart-btn{
+        padding: 10px 0 10px 10px;
+    }
+    .qty-cart{
+        font-size: 0.9rem;
+    }   
+    .box{
+        flex-wrap: wrap;
+    }
+    .left-background, .right-background{
+        width: 95%;
+    }
+    .fourth-screen{
+        margin-bottom: 100px;
+    }
+    .fourth-screen-right{
+        width: 70%;
+    }
+    .image-fourth-screen, .fourth-screen-right-bg{
+        height: 260px;
+    }
+    .txt-fourth-screen{
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+    .text-fourth-screen{
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
+    .image-fourth-screen{
+        position: absolute;
+        left: 0;
+        top: 120px;
+    }
+    .title-fourth-screen{
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+    .margin-bottom{
+        margin-bottom: 50px;
+    }
+    .title-card {
+        font-size: 1.9rem;
+        margin: 0 auto 30px auto;
+    }
+    .image-card {
+        width: 90px;
+    }
+    .price-card-clock {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+    .text-card {
+        font-size: 0.9rem;
+    }
+    .card-width{
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .bg-sixth-screen-left, .image-sixth-screen-left{
+        width: 90%;
+    }
+    .image-sixth-screen-left {
+        position: absolute;
+        top: 35px;
+        right: 0;
+    }
+    .title-sixth-screen-right {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+    .arrow-next-sixth-screen, .arrow-prev-sixth-screen {
+        top: 98%;
+    }
+    .footer-title {
+        font-size: 1.8rem;
+    }
+    .text-get{
+        margin-top: 20px;
+    }
+    .text-number {
+        font-size: 0.9rem;
+    }
+    .home-link{
+        display: none;
+    }
+}
+@media screen and (max-width:360px){
+    .container{
+        width: 100%;
+        padding: 0 25px;
+        margin: 0 auto;
+    }
+    header {
+        margin: 25px 0 30px 0;
+    }
+    .part-left{
+        width: 140px;
+    }
+    .title-logo {
+        font-size: 1rem;
+    }
+    .icon-logo-max {
+        width: 25px;
+        height: 25px;
+    }
+    .nav-min{
+        margin: 0 0;
+    }
+    .line-menu{
+        width: 30px;
+    }
+    ul.slide li {
+        padding: 10px 40px 10px 0;
+    }
+    .search-box:hover > .search-input {
+        width: 120px;
+    }
+    .search-input {
+        margin-top: 0;
+    }
+    .modal-content {
+        width: 250px;
+    }
+    .modal-container {
+        margin: 0 10px;
+    }
+    .icon-log{
+        display: none;
+    }
+    .modal-content{
+        max-width: 300px;
+        height: 400px;
+    }
+    .modal-close {
+        padding: 0 10px;
+    }
+    .label-login{
+        padding: 0 0;
+        font-size: 2rem;
+    }
+    .signup-btn, .login-btn {
+        margin: 10px auto;
+        font-size: 1rem;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .login{
+        transform: translateY(-60px);
+    }
+    #chk:checked ~ .login{
+        transform: translateY(-340px);
+    }
+    .container-cart{
+        padding: 20px;
+    }
+    .title-table{
+        font-size: 1rem;
+    }
+    th {
+        font-size: 0.7rem;
+    }
+    .cart-name {
+        padding: 5px 10px 5px 0;
+    }
+    .name-cart{
+        display: none;
+    }
+    .image-cart {
+        width: 45px;
+        border-radius: 9px;
+    }    
+    .cart-qty, .cart-total {
+        padding: 5px 10px;
+    }
+    .cart-name, .qty-cart, .total-cart{
+        font-size: 0.7rem;
+    }
+    .title-price, .cart-price, .price-cart{
+        display: none;
+    }
+    .cart-btn{
+        padding: 5px 0 5px 5px;
+    }
+    .offer {
+        height: 390px;
+    }       
+    .offer-background{
+        height: 330px;
+        padding: 20px 0 20px 120px;
+    }
+    .arrow-prev {
+        right: 80px;
+    }
+    .arrow-next, .arrow-prev {
+        width: 33px;
+        height: 33px;
+        top: calc(330px - 19px);
+    }
+    h1{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .offer-text{
+        margin: 0 10px 0 0;
+        line-height: 1rem;
+    }
+    .offer-btn{
+        flex-wrap: wrap;
+        margin: 10px 0 0 0;
+    }
+    .link-add,
+    .link-buy{
+        margin: 0 10px 0 0;
+    }
+    .link-add{
+        margin-bottom: 10px;
+    }
+    .link-buy, .link-add{
+        width: 140px;
+    }
+    .icon-logo-min,
+    .icon-cart{
+        margin: 0 9px 0 15px;
+    }
+    .icon-logo-text {
+        font-size: 0.7rem;
+    }
+    .offer-image {
+        width: 130px;
+        top: 5px;
+        position: absolute;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .left-background, .right-background{
+        width: 100%;
+        height: 240px;
+    }
+    .box-title-left, .box-title-right {
+        font-size: 1.2em;
+    }
+    .box-text-right, .box-text-left {
+        font-size: 0.8rem;
+    }
+    .box-title-link-right, .box-title-link-left{
+        font-size: 0.7rem;
+    }
+    .box-text-right {
+        padding: 5px 10px 5px 0;
+    }
+    .box-picture-right, .box-picture-left {
+        width: 190px;
+        height: 85px;
+        bottom: 0;
+        position: absolute;
+        left: calc(100% - 190px);
+    }
+    .second-screen {
+        margin: 0 auto 50px auto;
+    }
+    .third-screen-title {
+        margin-bottom: 90px;
+    }
+    .card {
+        width: 251px;
+        height: 360px;
+        padding: 160px 0 0 40px;
+    }
+    .card-image{
+        width: 155px;
+        height: 165px;
+    }
+    .card-name {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .card-discont, .card-discont-price {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .card-price {
+        font-size: 1rem;
+    }    
+    .fourth-screen{
+        margin-bottom: 50px;
+    }
+    .fourth-screen-container {
+        flex-wrap: wrap;
+    }
+    .fourth-screen-left {
+        width: 100%;
+    }
+    .fourth-screen-right{
+        width: 100%;
+        margin-top: -40px;
+    }
+    .title-fourth-screen {
+        text-align: center;
+        margin-left: 0;
+    }
+    .image-fourth-screen, .fourth-screen-right-bg{
+        height: 260px;
+    }
+    .txt-fourth-screen{
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+    .text-fourth-screen{
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
+    .fourth-screen-right-bg {
+        height: 230px;
+        margin-bottom: 60px;
+    }
+    .image-fourth-screen{
+        position: absolute;
+        left: 0;
+        top: 95px;
+        width: 220px;
+        object-fit: contain;
+    }
+    .btn-fourth-screen{
+        display: none;
+    }
+    .btn-fourth-screen-mobil {
+        background-color: #DEF2F1;
+        border-radius: 10px;
+        border: none;
+        font-size: 0.8rem;
+        letter-spacing: 0.02rem;
+        margin: 65px auto 0px;
+        padding: 10px 45px;
+        display: block;
+        height: 40px;
+    }
+    .card-width {
+        margin-right: 0;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .marg-top {
+        margin-top: 0;
+    }
+    .margin-bottom{
+        margin-bottom: 50px;
+    }
+    .title-card {
+        font-size: 1.9rem;
+        margin: 0 auto 30px auto;
+    }
+    .image-card {
+        width: 90px;
+    }
+    .price-card-clock {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+    .text-card {
+        font-size: 0.9rem;
+    }
+    .card-width{
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .fifth-screen {
+        margin-bottom: 30px;
+    }
+    .sixth-screen {
+        margin-bottom: 60px;
+    }
+    .sixth-screen-container {
+        flex-wrap: wrap;
+    }
+    .sixth-screen-left{
+        height: 200px;
+    }
+    .sixth-screen-right{
+        margin-top: 50px;
+    }
+    .sixth-screen-left,
+    .sixth-screen-right{
+        width: 100%;
+    }
+    .title-sixth-screen-right {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .text-sixth-screen-right {
+        font-size: 0.65rem;
+        line-height: 1rem;
+    }
+    .txt-sixth-screen-right {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin-top: 0;
+    }
+    .seventh-screen {
+        margin-bottom: 90px;
+    }
+    .bg-text-seventh-screen {
+        font-size: 0.8rem;
+        padding: 9px 0;
+    }
+    .bg-seventh-screen {
+        top: -20px;
+    }
+    footer {
+        padding: 65px 0 50px 0;
+    }
+    .footer-title {
+        font-size: 1.5rem;
+        bottom: -122px;
+    }
+    .home-link{
+        display: none;
+    }
+}

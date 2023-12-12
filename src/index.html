@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website selling watches">
+    <meta name="keywords" content="Website, clock, time, selling, clock time, watches">    
+    <title>Clock Time</title>
+    <link rel="icon" href="./img/header-img/icon-logo.png" type="image/png">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <script defer src="index.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+    <section class="first-screen" id="close-modal">
+        <header id="home">
+            <nav class="flex-center">
+                <div class="part-left flex-center">
+                    <img src="./img/header-img/icon-logo.png" alt="" class="icon-logo-max">
+                    <span class="title-logo">ClockTime</span>
+                </div>
+                <div class="part-center">
+                    <ul class="flex-center">
+                        <li class="">
+                            <a href="#watches" class="nav-link link-margin">
+                                Watches
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#mobiles" class="nav-link link-margin">
+                                Mobiles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#accessories" class="nav-link link-margin">
+                                Accessories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#news" class="nav-link">
+                                News
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+                <div class="nav-min">
+                    <label for="touch">
+                        <span class="nav-hamburg-menu">
+                            <div class="line-menu line-menu-marg"></div>
+                            <div class="line-menu line-menu-marg"></div>
+                            <div class="line-menu"></div>
+                        </span>
+                    </label>               
+                    <input type="checkbox" id="touch"> 
+                    <ul class="slide">
+                        <li><a href="#watches">Watches</a></li> 
+                        <li><a href="#mobiles">Mobiles</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#news">News</a></li>
+                    </ul>
+                </div> 
+                <div class="part-right flex-end">
+                    <div class="search-box">
+                        <input class="search-input"type="text" name="" placeholder="Search">
+                        <button class="search-btn" href="#">
+                            <img src="./img/header-img/icon-search.png" alt="" class="icon-search">
+                        </button>
+                    </div>
+                    <div class="auth">
+                        <button class="login-btn" id="login-btn">
+                            <div class="login-container">
+                                <img src="./img/header-img/icon-human.png" alt="Log in" class="icon-human">
+                                <span class="login-text">Log in</span>
+                            </div>
+                        </button>
+                        <button class="logout-btn" id="logout-btn">
+                            <div class="logout-container">
+                                <img src="./img/header-img/icon-log-out.png" alt="Log out" class="icon-human">
+                                <span class="logout-text">Log out</span>
+                            </div>                        
+                        </button>
+                    </div>
+                    <!-- <div class="modal-container">
+                        <a href="#modal" class="flex-center">
+                            <img src="./img/header-img/icons-login.png" alt="" class="icon-human">
+                            <img src="./img/header-img/log-in.png" alt="" class="icon-log">
+                        </a> -->
+                        <!-- <div id="modal" class="modal">
+                            <a href="#close-modal" class="modal-background"></a>
+                            <div class="modal-content">
+                                <input type="checkbox" id="chk" aria-hidden="true">
+                                <div class="signup">
+                                    <form action="" class="signup-form">
+                                            <label for="chk" aria-hidden="true" class="label-login">Signup</label>
+                                            <a href="#close-modal" class="modal-close">&#10006;</a>
+                                            <input type="email" name="email" placeholder="Email" class="input-login" required="">
+                                            <input type="password" name="pswd" placeholder="Password" class="input-login" required="">
+                                            <input type="password" name="pswd" placeholder="Repeat password" class="input-login" required="">
+                                            <button class="signup-btn">Signup</button>
+                                    </form>
+                                </div>
+                                <div class="login">                                    
+                                    <form action="">
+                                            <label for="chk" aria-hidden="true" class="label-login">Login</label>
+                                        <input type="email" name="email" placeholder="Email" class="input-login" required="">
+                                        <input type="password" name="pswd" placeholder="Password" class="input-login" required="">
+                                        <button class="login-btn">Login</button>
+                                    </form>
+                                </div>
+                            </div>                       
+                        </div>
+                    </div> -->
+                    <div class="">
+                        <button class="cart-btn" id="">
+                            <img src="./img/header-img/icon-cart.png" alt="" class="cart-picture">
+                        </button>                        
+                    </div>
+                    <!-- <label class="cart-link">
+                        <img src="./img/header-img/icon-cart.png" alt="" class="cart-picture">
+                        <input type="checkbox" class="input-cart">
+                        <label for="input-cart" class="label-cart">
+                            <div class="container-cart">
+                                <h2 class="title-table">Your shopping cart</h2>
+                                <table class="table-cart">
+                                    <tr>
+                                        <th class="title-product">Product</th>
+                                        <th class="title-price">Price</th>
+                                        <th class="title-qty">Qty</th>
+                                        <th class="title-total">Total</th>
+                                        <th class="title-actions">Del</th>
+                                    </tr>
+                                    <tr class="item">
+                                        <td class="cart-name flex-center">   
+                                            <img src="./img/third-screen/image_item_1.png" alt="" class="image-cart">
+                                            <p class="name-cart">Singo Maple</p>
+                                        </td>
+                                        <td class="cart-price">
+                                            <p class="price-cart">Rp 1.264.000</p>
+                                        </td>
+                                        <td class="cart-qty">
+                                            <p class="qty-cart">2</p>
+                                        </td>
+                                        <td class="cart-total">
+                                            <p class="total-cart">Rp 2.528.000</p>
+                                        </td>
+                                        <td class="cart-btn">
+                                            <div class="action-btn">&#10006;</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </label>
+                    </label>                -->
+                </div>
+            </nav>
+        </header>
+            <div class="gallery js-g1">
+                <div class="slider">
+                    <div class="slide">
+                        <div class="offer">
+                            <div class="offer-background">
+                                <div class="offer-content">
+                                    <h1>
+                                        WAY KAMBAS<br>
+                                        OMEGA
+                                    </h1>
+                                </div>
+                                <div class="line"></div>
+                                <p class="offer-text">MATOA Way Kambas Maple comes with a material form of Canadian Maple.</p>
+                                <a href="" class="offer-link">Discover</a>
+                                <div class="offer-btn">
+                                    <a href="" class="link-add flex-center">
+                                        <img src="./img/offer/logo-min.png" alt="" class="icon-logo-min">
+                                        <span class="icon-logo-text">Add to cart</span>
+                                    </a>
+                                    <a href="" class="link-buy flex-center">
+                                        <img src="./img/offer/icon-cart.png" alt="" class="icon-cart">
+                                        <span class="icon-logo-text">Buy</span>
+                                    </a>
+                                </div>            
+                            </div>
+                            <div>
+                                <img src="./img/offer/hero-image.png" alt="" class="offer-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="offer">
+                            <div class="offer-background">
+                                <div class="offer-content">
+                                    <h1>
+                                        Pro Diver<br>
+                                        Silver
+                                    </h1>
+                                </div>
+                                <div class="line"></div>
+                                <p class="offer-text">Stainless steel case with a stainless steel bracelet. Fixed stainless steel bezel set with crystals.</p>
+                                <a href="" class="offer-link">Discover</a>
+                                <div class="offer-btn">
+                                    <a href="" class="link-add flex-center">
+                                        <img src="./img/offer/logo-min.png" alt="" class="icon-logo-min">
+                                        <span class="icon-logo-text">Add to cart</span>
+                                    </a>
+                                    <a href="" class="link-buy flex-center">
+                                        <img src="./img/offer/icon-cart.png" alt="" class="icon-cart">
+                                        <span class="icon-logo-text">Buy</span>
+                                    </a>
+                                </div>            
+                            </div>
+                            <div>
+                                <img src="./img/offer/image-invi.png" alt="" class="offer-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="offer">
+                            <div class="offer-background">
+                                <div class="offer-content">
+                                    <h1>
+                                        Chemin Des<br>
+                                        Tourelles
+                                    </h1>
+                                </div>
+                                <div class="line"></div>
+                                <p class="offer-text">Stainless steel case with a red leather strap. Mother of pearl dial with silver-tone hands and index hour markers.</p>
+                                <a href="" class="offer-link">Discover</a>
+                                <div class="offer-btn">
+                                    <a href="" class="link-add flex-center">
+                                        <img src="./img/offer/logo-min.png" alt="" class="icon-logo-min">
+                                        <span class="icon-logo-text">Add to cart</span>
+                                    </a>
+                                    <a href="" class="link-buy flex-center">
+                                        <img src="./img/offer/icon-cart.png" alt="" class="icon-cart">
+                                        <span class="icon-logo-text">Buy</span>
+                                    </a>
+                                </div>            
+                            </div>
+                            <div>
+                                <img src="./img/offer/image-tissot.png" alt="" class="offer-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="arrow-next next"></div>
+                    <div class="arrow-prev prev"></div>
+                </div> 
+            </div>
+    </section>
+    <section class="second-screen" id="watches">
+        <div class="box">
+            <div class="left-background">
+                <h2 class="box-title-left flex-center">
+                    Luxurious<span class="box-title-item">Eyewear</span>
+                </h2>
+                <p class="box-text-right">
+                    See the beauty of exotic world with the luxurious glasses
+                </p>
+                <a href="" class="box-title-link-right">
+                    Discover Now
+                </a>
+                <img src="./img/second-screen/glasses.png" alt="" class="box-picture-left">
+            </div>
+            <div class="right-background">
+                <h2 class="box-title-right flex-center">Comfortable
+                    <span class="box-title-item">Watches</span>
+                </h2>
+                <p class="box-text-left">
+                    Feels the balancing function and beauty in our wooden watches
+                </p>
+                <a href="" class="box-title-link-left">
+                    Discover Now
+                </a>
+                <img src="./img/second-screen/clock.png" alt="" class="box-picture-right">
+            </div>
+        </div>            
+    </section>
+    <section class="third-screen" id="mobiles">
+        <h2 class="third-screen-title">Monthly Deals</h2>
+        <div class="card-container">
+        </div>
+        <div class="load-more-btn-container">
+            <button class="third-screen-btn load_more_btn">Load more</button>
+        </div>        
+    </section>
+    <section class="fourth-screen" id="news">
+        <div class="fourth-screen-container">
+            <div class="fourth-screen-left">
+                <h2 class="title-fourth-screen">Recent News</h2>
+                <p class="text-fourth-screen">Where To Travel</p>
+                <p class="txt-fourth-screen">Matoa Where To Travel? Yogyakarta</p>
+                <button class="btn-fourth-screen">Discover</button>
+            </div>
+            <div class="fourth-screen-right">
+                <div class="fourth-screen-right-bg">
+                </div>
+                    <img src="./img/fourth-screen/image.png" alt="" class="image-fourth-screen">                               
+                    <button class="btn-fourth-screen-mobil">Discover</button>
+            </div>            
+        </div>          
+    </section>
+    <section class="fifth-screen" id="accessories">
+        <div class="fifth-screen-container">
+            <div class="margin-left card-width">
+                <h2 class="title-card">
+                    Bestseller
+                </h2>
+                <div class="card-discription card-disc-margin">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_1.png" alt=""
+                        class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Tomia Maple</p>
+                        <p class="price-card-clock">Rp 1.280.000</p>
+                    </div>
+                </div>
+                <div class="card-discription card-disc-margin">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_2.png" alt=""
+                        class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Way Kambas Maple</p>
+                        <p class="price-card-clock">Rp 1.280.000</p>
+                    </div>
+                </div>
+                <div class="card-discription">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_3.png" alt="" class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Sunda</p>
+                        <p class="price-card-clock">Rp 1.170.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="margin-left card-width">
+                <h2 class="title-card">
+                    New Arrival
+                </h2>
+                <div class="card-discription card-disc-margin">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_4.png" alt="" class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Rakai Maple</p>
+                        <p class="discont-price-card">Rp 1.280.000</p>
+                        <p class="price-card-clock">Rp 1.088.000</p>
+                    </div>
+                </div>
+                <div class="card-discription card-disc-margin">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_5.png" alt="" class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Alor</p>
+                        <p class="price-card-clock">Rp 1.170.000</p>
+                    </div>
+                </div>
+                <div class="card-discription">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_6.png" alt="" class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Sumba</p>
+                        <p class="price-card-clock">Rp 1.050.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="marg-top card-width">
+                <h2 class="title-card">
+                    Featured
+                </h2>
+                <div class="card-discription card-disc-margin">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_5.png" alt="" class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Tomia Maple</p>
+                        <p class="price-card-clock">Rp 1.280.000</p>
+                    </div>
+                </div>
+                <div class="card-discription card-disc-margin">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_6.png" alt="" class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Way Kambas Maple</p>
+                        <p class="price-card-clock">Rp 1.280.000</p>
+                    </div>
+                </div>
+                <div class="card-discription">
+                    <div>
+                        <img src="./img/fifth-screen/unsplash_7.png" alt="" class="image-card">
+                    </div>
+                    <div class="wrrap-card">
+                        <p class="text-card">Sunda</p>
+                        <p class="price-card-clock">Rp 1.170.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sixth-screen">
+        <div class="sixth-screen-container">
+            <div class="sixth-screen-left">
+                <div class="bg-sixth-screen-left">
+                </div>
+                    <img src="./img/sixth-screen/image.png" alt="" class="image-sixth-screen-left">
+                <div class="arrow">
+                    <div class="arrow-next-sixth-screen"></div>
+                    <div class="arrow-prev-sixth-screen"></div>
+                </div> 
+            </div>
+            <div class="sixth-screen-right">
+                <h2 class="title-sixth-screen-right">Testimonials</h2>
+                <p class="text-sixth-screen-right">
+                    Loving my new KAILI watch from @matoa_id, the first ever Indonesian watch local brand that uses wood as their main material. Like any other Matoa products, KAILI is inspired by Indonesian heritage.
+                </p>
+                <p class="txt-sixth-screen-right">Gita Savitri</p>
+                <p class="sub-text-sixth-screen-right">Content Creator/Influencer</p>
+            </div>
+        </div>
+    </section>
+    <section class="seventh-screen">
+        <div class="seventh-screen-container">
+            <div class="bg-seventh-screen">
+                <span class="bg-text-seventh-screen">Instagram</span>
+            </div>
+            <img src="./img/seventh-screen/image_gall_1.png" alt=""
+            class="image-gall">
+            <img src="./img/seventh-screen/image_gall_2.png" alt=""
+            class="image-gall">
+            <img src="./img/seventh-screen/image_gall_3.png" alt="" class="image-gall">
+            <img src="./img/seventh-screen/image_gall_4.png" alt=""
+            class="image-gall">
+            <img src="./img/seventh-screen/image_gall_5.png" alt="" class="image-gall">
+        <p class="footer-title">Sponsor</p>
+        </div>
+        
+    </section>
+</div>
+    <footer>        
+        <div class="footer-card-container">
+            <div class="footer-card card-marg">
+                <p class="text-address">Address</p>
+                <p class="text-store">Store & Office<br>
+                    Jl. Setrasari Kulon III, No. 10-12, Kelurahan Sukarasa Kecamatan Sukasari, Kota Bandung, Jawa Barat, Indonesia</p>
+                <p class="text-office">Office Hour</p>
+                <p class="text-monday">Monday - Sunday <br> 
+                    10.00 - 18.00</p>
+            </div>
+            <div class="footer-card card-marg">
+                <p class="text-get">Get in touch</p>
+                <div class="phone-wrrap">
+                    <div class="phone-container">
+                        <div class="text-customer">Customer
+                            Service</div>
+                        <div class="text-number">0811-233-8899</div>
+                    </div>
+                    <div class="phone-container">
+                        <div class="text-phone">Phone</div>
+                        <div class="text-number">022-20277564</div>
+                    </div>
+                    <div class="phone-container">
+                        <div class="text-service">Service Center</div>
+                        <div class="text-number">0811-235-9988</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-card card-marg">
+                <p class="text-useful">Useful Link</p>
+                <p class="text-warranty">
+                    Warranty & Complaints<br>
+                    Tracking Order<br>
+                    How to Adjust<br>
+                    How to Care<br>
+                    Repair<br>
+                    Terms<br>
+                    FAQ<br>
+                </p>
+            </div><div class="footer-card">
+                <p class="text-useful">Useful Link</p>
+                <p class="text-warranty">
+                    Warranty & Complaints<br>
+                    Tracking Order<br>
+                    How to Adjust<br>
+                    How to Care<br>
+                    Repair<br>
+                    Terms<br>
+                    FAQ<br>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a href="#home" class="home-link"></a>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

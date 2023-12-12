@@ -1,0 +1,80 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "login": "Luidmila",
+            "email": "luidmila@ukr.net",
+            "password": "12345"
+        }
+    ],
+    "goods": [
+        {
+            "id": 1,
+            "image": "./image_item_1.5060b374.png",
+            "name": "Singo Ebony",
+            "discontRate": "20",
+            "price": "1.500.000",
+            "finalPrice": "1.200.000"
+        },
+        {
+            "id": 2,
+            "image": "./image_item_2.85759613.png",
+            "name": "Singo Maple",
+            "discontRate": "20",
+            "price": "1.500.000",
+            "finalPrice": "1.200.000"
+        },
+        {
+            "id": 3,
+            "image": "./image_item_3.93f9c1ef.png",
+            "name": "Rakai Ebony",
+            "discontRate": "15",
+            "price": "1.280.000",
+            "finalPrice": "1.088.000"
+
+        },
+        {
+            "id": 4,
+            "image": "./image_item_4.2adce881.png",
+            "name": "Bering",
+            "discontRate": "10",
+            "price": "1.000.000",
+            "finalPrice": "0.900.000"
+        },
+        {
+            "id": 5,
+            "image": "./image_item_5.442df10f.png",
+            "name": "Kambas Maple",
+            "discontRate": "20",
+            "price": "1.500.000",
+            "finalPrice": "1.200.000"
+
+        },
+        {
+            "id": 6,
+            "image": "./image_item_6.bc553389.png",
+            "name": "Movado Museum",
+            "discontRate": "20",
+            "price": "1.300.000",
+            "finalPrice": "1.040.000"
+        },
+        {
+            "id": 7,
+            "image": "./image_item_7.a359d599.png",
+            "name": "Jual Mataj",
+            "discontRate": "15",
+            "price": "1.280.000",
+            "finalPrice": "1.088.000"
+
+        },
+        {
+            "id": 8,
+            "image": "./image_item_8.00ef4f7c.png",
+            "name": "Versace 45MM",
+            "discontRate": "10",
+            "price": "1.200.000",
+            "finalPrice": "1.080.000"
+
+        }
+    ]
+}

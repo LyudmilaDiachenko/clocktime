@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "sourse": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open --port 3000",
+    "build": "parcel build src/index.html",
+    "server": "json-server --watch db.json -p 8000 -d 300"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.11",
+    "firebase": "^10.7.1",
+    "handlebars": "^4.7.8",
+    "json-server": "^0.17.4",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars": "^0.4.4"
+  }
+}

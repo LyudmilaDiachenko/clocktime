@@ -1,0 +1,15 @@
+{{#each this}}
+    <div class="card card-margin">
+        <img src={{image}} alt="Photo" class="card-image">    
+        <p class="card-name">{{name}}</p>
+        <p class="card-discont">{{discontRate}}% Off</p>
+        <p class="card-discont-price">Rp {{price}}</p>
+        <p class="card-price">Rp {{finalPrice}}</p>
+        <div class="card-btn-container">
+            <div class="flex-center">
+                <button class="card-btn-logo"></button>
+                <button class="card-btn-cart">Add to cart</button>
+            </div>                    
+        </div>
+    </div>
+{{/each}}
