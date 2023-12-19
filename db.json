@@ -10,7 +10,7 @@
     "goods": [
         {
             "id": 1,
-            "image": "./image_item_1.5060b374.png",
+            "image": "/img/third-screen/image_item_1.png",
             "name": "Singo Ebony",
             "discontRate": "20",
             "price": "1.500.000",
@@ -18,7 +18,7 @@
         },
         {
             "id": 2,
-            "image": "./image_item_2.85759613.png",
+            "image": "/img/third-screen/image_item_2.png",
             "name": "Singo Maple",
             "discontRate": "20",
             "price": "1.500.000",
@@ -26,7 +26,7 @@
         },
         {
             "id": 3,
-            "image": "./image_item_3.93f9c1ef.png",
+            "image": "/img/third-screen/image_item_3.png",
             "name": "Rakai Ebony",
             "discontRate": "15",
             "price": "1.280.000",
@@ -35,7 +35,7 @@
         },
         {
             "id": 4,
-            "image": "./image_item_4.2adce881.png",
+            "image": "/img/third-screen/image_item_4.png",
             "name": "Bering",
             "discontRate": "10",
             "price": "1.000.000",
@@ -43,7 +43,7 @@
         },
         {
             "id": 5,
-            "image": "./image_item_5.442df10f.png",
+            "image": "/img/third-screen/image_item_5.png",
             "name": "Kambas Maple",
             "discontRate": "20",
             "price": "1.500.000",
@@ -52,7 +52,7 @@
         },
         {
             "id": 6,
-            "image": "./image_item_6.bc553389.png",
+            "image": "/img/third-screen/image_item_6.png",
             "name": "Movado Museum",
             "discontRate": "20",
             "price": "1.300.000",
@@ -60,7 +60,7 @@
         },
         {
             "id": 7,
-            "image": "./image_item_7.a359d599.png",
+            "image": "/img/third-screen/image_item_7.png",
             "name": "Jual Mataj",
             "discontRate": "15",
             "price": "1.280.000",
@@ -69,7 +69,7 @@
         },
         {
             "id": 8,
-            "image": "./image_item_8.00ef4f7c.png",
+            "image": "/img/third-screen/image_item_8.png",
             "name": "Versace 45MM",
             "discontRate": "10",
             "price": "1.200.000",

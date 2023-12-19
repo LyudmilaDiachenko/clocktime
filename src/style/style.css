@@ -655,6 +655,7 @@ h1{
 .image-sixth-screen-left{
     width: 76%;
     height: 76%;
+    border-radius: 20px;
 }
 .sixth-screen-right{
     width: 50%;    
@@ -703,7 +704,7 @@ h1{
     position: absolute;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    top: 98%;
+    top: 81%;
 }
 .arrow-next-sixth-screen{
     background-image: url(../img/offer/icon-next.png);
@@ -732,6 +733,7 @@ h1{
     justify-content: center;
     align-items: center;
     width: calc(100% - 54%);
+    z-index: 10;
 }
 .bg-text-seventh-screen{
     font-size: 1.5rem;
@@ -739,9 +741,6 @@ h1{
     letter-spacing: 0.045rem;
     text-transform: uppercase;
     padding: 19px 0;
-}
-.image-gall{
-    width: 20%;
 }
 footer{
     width: 100%;
@@ -855,30 +854,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.crutch-1{
-    background-image: url(../img/third-screen/image_item_1.png);
-}
-.crutch-2{
-    background-image: url(../img/third-screen/image_item_2.png);
-}
-.crutch-3{
-    background-image: url(../img/third-screen/image_item_3.png);
-}
-.crutch-4{
-    background-image: url(../img/third-screen/image_item_4.png);
-}
-.crutch-5{
-    background-image: url(../img/third-screen/image_item_5.png);
-}
-.crutch-6{
-    background-image: url(../img/third-screen/image_item_6.png);
-}
-.crutch-7{
-    background-image: url(../img/third-screen/image_item_7.png);
-}
-.crutch-8{
-    background-image: url(../img/third-screen/image_item_8.png);
 }
 .third-screen-btn{
     letter-spacing: .02rem;
