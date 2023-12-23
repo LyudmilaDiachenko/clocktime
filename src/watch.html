@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website selling watches">
+    <meta name="keywords" content="Website, clock, time, selling, clock time, watches">    
+    <title>Clock Time</title>
+    <link rel="icon" href="./img/header-img/icon-logo.png" type="image/png">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="stylesheet" href="./style/watch.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script defer src="watch.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <section class="first-screen" id="close-modal">
+            <header id="home">
+                <nav class="flex-center">
+                    <a href="./index.html" class="part-left flex-center">
+                        <img src="./img/header-img/icon-logo.png" alt="" class="icon-logo-max">
+                        <span class="title-logo">ClockTime</span>
+                    </a>
+                    <div class="part-center">
+                        <ul class="flex-center">
+                            <li class="">
+                                <a href="#watches" class="nav-link link-margin">
+                                    Watches
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#mobiles" class="nav-link link-margin">
+                                    Mobiles
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#accessories" class="nav-link link-margin">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#news" class="nav-link">
+                                    News
+                                </a>
+                            </li>
+                        </ul>
+                    </div>                
+                    <div class="nav-min">
+                        <label for="touch">
+                            <span class="nav-hamburg-menu">
+                                <div class="line-menu line-menu-marg"></div>
+                                <div class="line-menu line-menu-marg"></div>
+                                <div class="line-menu"></div>
+                            </span>
+                        </label>               
+                        <input type="checkbox" id="touch"> 
+                        <ul class="slide">
+                            <li><a href="#watches">Watches</a></li> 
+                            <li><a href="#mobiles">Mobiles</a></li>
+                            <li><a href="#accessories">Accessories</a></li>
+                            <li><a href="#news">News</a></li>
+                        </ul>
+                    </div> 
+                    <div class="part-right flex-end">
+                        <div class="search-box">
+                            <input class="search-input"type="text" name="" placeholder="Search">
+                            <button class="search-btn" href="#">
+                                <img src="./img/header-img/icon-search.png" alt="" class="icon-search">
+                            </button>
+                        </div>
+                        <div class="auth">
+                            <button class="login-btn" id="login-btn">
+                                <div class="login-container">
+                                    <img src="./img/header-img/icon-human.png" alt="Log in" class="icon-human">
+                                    <span class="login-text">Log in</span>
+                                </div>
+                            </button>
+                            <button class="logout-btn" id="logout-btn">
+                                <div class="logout-container">
+                                    <img src="./img/header-img/icon-log-out.png" alt="Log out" class="icon-human">
+                                    <span class="logout-text">Log out</span>
+                                </div>                        
+                            </button>
+                        </div>
+                        <div class="">
+                            <button class="cart-btn" id="">
+                                <img src="./img/header-img/icon-cart.png" alt="" class="cart-picture">
+                            </button>                        
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </section>
+        <section class="second-screen" id="watch">
+                    
+        </section>
+    </div>
+    <footer>        
+        <div class="footer-card-container">
+            <div class="footer-card card-marg">
+                <p class="text-address">Address</p>
+                <p class="text-store">Store & Office<br>
+                    Jl. Setrasari Kulon III, No. 10-12, Kelurahan Sukarasa Kecamatan Sukasari, Kota Bandung, Jawa Barat, Indonesia</p>
+                <p class="text-office">Office Hour</p>
+                <p class="text-monday">Monday - Sunday <br> 
+                    10.00 - 18.00</p>
+            </div>
+            <div class="footer-card card-marg">
+                <p class="text-get">Get in touch</p>
+                <div class="phone-wrrap">
+                    <div class="phone-container">
+                        <div class="text-customer">Customer
+                            Service</div>
+                        <div class="text-number">0811-233-8899</div>
+                    </div>
+                    <div class="phone-container">
+                        <div class="text-phone">Phone</div>
+                        <div class="text-number">022-20277564</div>
+                    </div>
+                    <div class="phone-container">
+                        <div class="text-service">Service Center</div>
+                        <div class="text-number">0811-235-9988</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-card card-marg">
+                <p class="text-useful">Useful Link</p>
+                <p class="text-warranty">
+                    Warranty & Complaints<br>
+                    Tracking Order<br>
+                    How to Adjust<br>
+                    How to Care<br>
+                    Repair<br>
+                    Terms<br>
+                    FAQ<br>
+                </p>
+            </div><div class="footer-card">
+                <p class="text-useful">Useful Link</p>
+                <p class="text-warranty">
+                    Warranty & Complaints<br>
+                    Tracking Order<br>
+                    How to Adjust<br>
+                    How to Care<br>
+                    Repair<br>
+                    Terms<br>
+                    FAQ<br>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a href="#home" class="home-link"></a>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          watchSlidesProgress: true,
+          slidesPerView: 5,
+        });
+      </script>
+</body>
+</html>

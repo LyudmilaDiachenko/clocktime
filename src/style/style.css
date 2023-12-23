@@ -518,11 +518,12 @@ h1{
     background: #DEF2F1;
     padding: 10px;
     border: none;
-    background-image: url(../img/header-img/icon-logo.png);
+    border-radius: 10px;
+    background-image: url(../img/third-screen/icons-round.png);
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-position: 51% 50%;
-    margin-right: 8px;
+    margin-right: 8px;    
 }
 .card-btn-cart{
     width: 158px;

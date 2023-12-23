@@ -1,0 +1,41 @@
+.container-final-card{
+    background-color: #3AAFA9;
+    border-radius: 20px;
+    padding: 25px;
+    width: 100%;
+}
+.wrrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.final-img{
+    margin-right: 25px;
+}
+.final-name{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.final-description{
+    padding: 20px 0;
+    text-align: justify;
+}
+.final-text-container{
+    display: flex;
+    align-items: center;
+}
+.text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #333;
+    margin-right: 10px;
+}
+.txt{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-right: 10px;
+}
+.btn-container{
+    margin: 10px 10px 10px 80%;
+    display: block;
+}

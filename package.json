@@ -5,7 +5,7 @@
   "sourse": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --open --port 3000",
-    "build": "parcel build src/index.html src/img/*/*",
+    "build": "parcel build src/index.html src/watch.html src/img/*/*",
     "server": "json-server --watch db.json -p 8000 -d 300"
   },
   "keywords": [],
