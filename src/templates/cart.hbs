@@ -1,0 +1,44 @@
+<div class="container-cart">
+    <h2 class="title-table">Your shopping cart</h2>
+    {{#if this.length}}
+    <form action="/order/">
+    <table class="table-cart">
+        <tr>
+            <th class="title-product">Product</th>
+            <th class="title-price">Price</th>
+            <th class="title-qty" colspan="3">Qty</th>
+            <th class="title-total">Total</th>
+            <th class="title-actions">Del</th>
+        </tr>
+        {{#each this}}
+            <tr class="item">
+                <td class="cart-name flex-center">   
+                    <img src={{image}} alt="" class="image-cart">
+                    <p class="name-cart">{{name}}</p>
+                </td>
+                <td class="cart-price">
+                    <p class="price-cart">Rp {{finalPrice}}</p>
+                </td>
+                <td class="td-minus-card">
+                    <span class="js-minus-cart" data-id={{id}}>-</span>
+                </td>
+                <td class="cart-qty">
+                    <p class="qty-cart">{{cnt}}</p>
+                     <input type="hidden" name="id[{{id}}]" value="{{cnt}}">
+                </td>
+                <td class="td-plus-card">
+                    <span class="js-plus-cart" data-id={{id}}>+</span>
+                </td>
+                <td class="cart-total">
+                    <p class="total-cart">Rp {{totalPrice}}</p>
+                </td>
+                <td class="cart-btn">
+                    <div class="action-btn js-delete-cart" data-id={{id}}>&#10006;</div>
+                </td>
+            </tr>
+        {{/each}}
+    </table>
+    <input type="submit" class="order-btn" value="Order">
+    </form>
+    {{/if}}
+</div>

@@ -7,7 +7,8 @@ import "./utils/auth.js"
 
 new Gallery('.js-g1')
 new Gallery('.js-g2')
-cart('card-btn-cart')
+cart.showCart('.cart-link')
+cart.onClick('card-btn-cart')
 loadMoreBtn('.load_more_btn', fillTemplates)
 searchInput('.search-input', fillTemplates)
 fillTemplates()

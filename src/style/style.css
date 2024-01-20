@@ -114,76 +114,6 @@ nav{
     border: none;
     cursor: pointer;
 }
-/* .search-box{
-    background: #fff;
-    height: 40px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-.icon-search{
-    margin-right: 8px;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%; 
-}
-.search-btn{
-    border: none;
-    background-color: #fff;
-}
-::-webkit-input-placeholder{
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #333;
-}
-.search-input {
-    border:none;
-    outline: none;
-    float: left;
-    padding: 0;
-    font-size: 1.2rem;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-    border-bottom: 1px solid #3AAFA9;
-    z-index: 20;
-    background: #fff;
-    margin-top: 70px;
-}
-.search-btn{
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 100%;
-    background: #3AAFA9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-} 
-.search-box:hover > .search-input{
-    width: 250px;
-    padding: 0 6px;
-}
-.search-box:hover > .search-btn {
-    background: white;
-    color : #2f3640;
-} */
-                            /* End search */
-                            /* Modal window log-in */
-/* c */
-                                    /* End modal */
-                            /* Cart */
-
-@keyframes slideInDown {
-    0% {
-        transform: translateY(-100%);
-        visibility: visible;
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
 .cart-picture{
     position: relative;
 }
@@ -231,9 +161,16 @@ td{
 }
 .cart-btn{
     padding: 15px 0 15px 15px;
-    background-color: #fff;
     border: none;
     cursor: pointer;
+}
+.td-minus-card{
+    text-align: end;
+    padding-right: 0;
+}
+.td-plus-card{
+    text-align: start;
+    padding-left: 0;
 }
 .image-cart{
     width: 70px;
@@ -290,6 +227,9 @@ td{
     border: none;
     display: none;
     cursor: pointer;
+}
+.cart-link{
+    margin-left: 10px;
 }
 .offer{
     position: relative;
@@ -870,4 +810,16 @@ footer{
 .third-screen-btn:hover{
     background-color: #def2f1;
     box-sizing: border-box;
+}
+.order-btn{
+    letter-spacing: .02rem;
+    background-color: #3aafa9;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 45px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    float: right;
 }
